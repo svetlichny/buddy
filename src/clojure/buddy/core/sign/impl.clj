@@ -39,6 +39,7 @@
                           :rsassa-pkcs15-sha256 #(Signature/getInstance "SHA256withRSA" "BC")
                           :rsassa-pkcs15-sha384 #(Signature/getInstance "SHA384withRSA" "BC")
                           :rsassa-pkcs15-sha512 #(Signature/getInstance "SHA512withRSA" "BC")
+                          :rsassa-pkcs15-sha1   #(Signature/getInstance "SHA1withRSA" "BC")
                           :ecdsa-sha256         #(Signature/getInstance "SHA256withECDSA" "BC")
                           :ecdsa-sha384         #(Signature/getInstance "SHA384withECDSA" "BC")
                           :ecdsa-sha512         #(Signature/getInstance "SHA512withECDSA" "BC")})
